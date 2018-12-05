@@ -40,7 +40,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   background-color: #fafcff;
-  background-image: url(../img/hero.png), url(../img/body-bg2.png);
+  background-image: url(../images/hero.png), url(../images/body-bg2.png);
   background-position: top right, bottom right;
   background-repeat: no-repeat, no-repeat;
   background-size: auto auto, 100% auto;
@@ -215,9 +215,10 @@ section.footer .h1 {
   -webkit-border-radius: 0.625rem;
   -moz-border-radius: 0.625rem;
   box-shadow: 1.875rem 1.875rem 6.25rem rgba(0, 0, 0, 0.15);
+  height: calc(100% - 10px);
   min-height: 18.75rem;
-  width: 100%;
-  float: left;
+  overflow: hidden;
+  width: fit-content;
 }
 .video-bg .btn-play {
   box-shadow: 0rem 0rem 2.5rem rgba(0, 0, 0, 0.1);
